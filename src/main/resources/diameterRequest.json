@@ -1,0 +1,319 @@
+[
+  {
+    "_index": "packets-2021-10-07",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "Oct  7, 2021 14:46:04.110181000 Romance Daylight Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1633610764.110181000",
+          "frame.time_delta": "0.000365000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000665000",
+          "frame.number": "4",
+          "frame.len": "224",
+          "frame.cap_len": "224",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:diameter",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "sll": {
+          "sll.pkttype": "0",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "ca:e7:7c:9e:4d:28",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "208",
+          "ip.id": "0x8153",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x7ef0",
+          "ip.checksum.status": "2",
+          "ip.src": "10.250.17.254",
+          "ip.addr": "10.250.17.254",
+          "ip.src_host": "10.250.17.254",
+          "ip.host": "10.250.17.254",
+          "ip.dst": "10.250.17.243",
+          "ip.addr": "10.250.17.243",
+          "ip.dst_host": "10.250.17.243",
+          "ip.host": "10.250.17.243"
+        },
+        "tcp": {
+          "tcp.srcport": "37040",
+          "tcp.dstport": "3868",
+          "tcp.port": "37040",
+          "tcp.port": "3868",
+          "tcp.stream": "0",
+          "tcp.completeness": "63",
+          "tcp.len": "156",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3684449604",
+          "tcp.nxtseq": "157",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3900765992",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "64240",
+          "tcp.window_size": "64240",
+          "tcp.window_size_scalefactor": "1",
+          "tcp.checksum": "0x3aa7",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:5b:2a:69:d3:fb:13:23:e9",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:5b:2a:69:d3:fb:13:23:e9",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "1529506259",
+              "tcp.options.timestamp.tsecr": "4212335593"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000665000",
+            "tcp.time_delta": "0.000365000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.000300000",
+            "tcp.analysis.bytes_in_flight": "156",
+            "tcp.analysis.push_bytes_sent": "156"
+          },
+          "tcp.payload": "01:00:00:9c:80:00:01:01:00:00:00:00:00:00:00:00:00:00:00:00:00:00:01:08:40:00:00:15:31:30:2e:32:35:30:2e:31:37:2e:32:35:34:00:00:00:00:00:01:28:40:00:00:18:74:65:73:74:2e:73:65:61:67:75:6c:6c:2e:63:6f:6d:00:00:01:01:40:00:00:0e:00:01:0a:fd:00:0a:00:00:00:00:01:0a:40:00:00:0c:00:00:28:af:00:00:01:0d:00:00:00:0f:54:65:73:74:20:47:79:00:00:00:01:16:40:00:00:0c:41:41:6e:00:00:00:01:09:40:00:00:0c:00:00:28:af:00:00:01:04:40:00:00:14:00:00:01:02:40:00:00:0c:00:00:00:04",
+          "tcp.pdu.size": "156"
+        },
+        "diameter": {
+          "diameter.version": "0x01",
+          "diameter.length": "156",
+          "diameter.flags": "0x80",
+          "diameter.flags_tree": {
+            "diameter.flags.request": "1",
+            "diameter.flags.proxyable": "0",
+            "diameter.flags.error": "0",
+            "diameter.flags.T": "0",
+            "diameter.flags.reserved4": "0",
+            "diameter.flags.reserved5": "0",
+            "diameter.flags.reserved6": "0",
+            "diameter.flags.reserved7": "0"
+          },
+          "diameter.cmd.code": "257",
+          "diameter.applicationId": "0",
+          "diameter.hopbyhopid": "0x00000000",
+          "diameter.endtoendid": "0x00000000",
+          "diameter.answer_in": "6",
+          "diameter.avp": "00:00:01:08:40:00:00:15:31:30:2e:32:35:30:2e:31:37:2e:32:35:34:00:00:00",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "264",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "21",
+            "diameter.Origin-Host": "10.250.17.254",
+            "diameter.avp.pad": "00:00:00"
+          },
+          "diameter.avp": "00:00:01:28:40:00:00:18:74:65:73:74:2e:73:65:61:67:75:6c:6c:2e:63:6f:6d",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "296",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "24",
+            "diameter.Origin-Realm": "test.seagull.com"
+          },
+          "diameter.avp": "00:00:01:01:40:00:00:0e:00:01:0a:fd:00:0a:00:00",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "257",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "14",
+            "diameter.Host-IP-Address": "00:01:0a:fd:00:0a",
+            "diameter.Host-IP-Address_tree": {
+              "diameter.Host-IP-Address.addr_family": "1",
+              "diameter.Host-IP-Address.IPv4": "10.253.0.10"
+            },
+            "diameter.avp.pad": "00:00"
+          },
+          "diameter.avp": "00:00:01:0a:40:00:00:0c:00:00:28:af",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "266",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "12",
+            "diameter.Vendor-Id": "10415",
+            "diameter.vendorId": "10415"
+          },
+          "diameter.avp": "00:00:01:0d:00:00:00:0f:54:65:73:74:20:47:79:00",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "269",
+            "diameter.avp.flags": "0x00",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "0",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "15",
+            "diameter.Product-Name": "Test Gy",
+            "diameter.avp.pad": "00"
+          },
+          "diameter.avp": "00:00:01:16:40:00:00:0c:41:41:6e:00",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "278",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "12",
+            "diameter.Origin-State-Id": "1094807040"
+          },
+          "diameter.avp": "00:00:01:09:40:00:00:0c:00:00:28:af",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "265",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "12",
+            "diameter.Supported-Vendor-Id": "10415",
+            "diameter.vendorId": "10415"
+          },
+          "diameter.avp": "00:00:01:04:40:00:00:14:00:00:01:02:40:00:00:0c:00:00:00:04",
+          "diameter.avp_tree": {
+            "diameter.avp.code": "260",
+            "diameter.avp.flags": "0x40",
+            "diameter.avp.flags_tree": {
+              "diameter.flags.vendorspecific": "0",
+              "diameter.flags.mandatory": "1",
+              "diameter.avp.flags.protected": "0",
+              "diameter.avp.flags.reserved3": "0",
+              "diameter.avp.flags.reserved4": "0",
+              "diameter.avp.flags.reserved5": "0",
+              "diameter.avp.flags.reserved6": "0",
+              "diameter.avp.flags.reserved7": "0"
+            },
+            "diameter.avp.len": "20",
+            "diameter.Vendor-Specific-Application-Id": "00:00:01:02:40:00:00:0c:00:00:00:04",
+            "diameter.Vendor-Specific-Application-Id_tree": {
+              "diameter.avp": "00:00:01:02:40:00:00:0c:00:00:00:04",
+              "diameter.avp_tree": {
+                "diameter.avp.code": "258",
+                "diameter.avp.flags": "0x40",
+                "diameter.avp.flags_tree": {
+                  "diameter.flags.vendorspecific": "0",
+                  "diameter.flags.mandatory": "1",
+                  "diameter.avp.flags.protected": "0",
+                  "diameter.avp.flags.reserved3": "0",
+                  "diameter.avp.flags.reserved4": "0",
+                  "diameter.avp.flags.reserved5": "0",
+                  "diameter.avp.flags.reserved6": "0",
+                  "diameter.avp.flags.reserved7": "0"
+                },
+                "diameter.avp.len": "12",
+                "diameter.Auth-Application-Id": "4"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
